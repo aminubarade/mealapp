@@ -1,0 +1,38 @@
+html {
+
+}
+
+body{
+  margin: 0px !important;
+}
+
+.nav {
+  padding: 14px 16px;
+  background-color: #333;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-link {
+  color: aliceblue !important;
+}
+
+.page-title {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.nav-link a{
+  color: aliceblue !important;
+  text-decoration: none !important;
+}
+
+.nav-link :hover{
+  color: gray !important;
+}
+
+
+
+
