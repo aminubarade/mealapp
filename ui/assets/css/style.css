@@ -5,7 +5,7 @@ html {
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/meal.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/meal.jpg) no-repeat;
   background-size: cover;
 }
 
