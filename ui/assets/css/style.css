@@ -5,6 +5,7 @@ html {
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px !important;
+  color:  rgb(75, 75, 133);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/meal.jpg) no-repeat;
   background-size: cover;
 }
@@ -15,7 +16,7 @@ a {
 
 .nav {
   padding: 14px 25px;
-  background-color:black;
+  background-color: rgb(75, 75, 133);;
 }
 
 .nav-links {
@@ -50,7 +51,7 @@ a {
 }
 
  .home-btn {
-  background: #515151;
+  background:  rgb(75, 75, 133);
   padding: 15px 50px;
   color: aliceblue;
   font-size: 30px;
@@ -92,7 +93,7 @@ a {
   width: 250px;
   border-top: none !important;
   border-right: none !important;
-  border-bottom: #333;
+  border-bottom:  rgb(75, 75, 133);
   border-left: none !important;
   border-style: solid;
   border-width: 1px;
@@ -112,18 +113,17 @@ input:focus {
 
 
 
-.align-right {
-  float: right;
-}
 
 
 .btn {
-  background: #515151;
-  padding: 10px 12px;
+  background:  rgb(75, 75, 133);
+  width: 80px;
+  padding: 9px 12px;
   color: aliceblue;
   border: none;
   cursor: pointer;
   transition: background 2s;
+
 }
 
 .p-1 {
@@ -167,4 +167,12 @@ input:focus {
 }
 .m-0 {
   margin: 0px !important;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.submit-btn {
+  width: 90px;
 }
