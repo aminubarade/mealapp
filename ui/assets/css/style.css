@@ -9,6 +9,10 @@ body{
   background-size: cover;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .nav {
   padding: 14px 25px;
   background-color:black;
@@ -91,6 +95,7 @@ body{
   border-bottom: #333;
   border-left: none !important;
   border-style: solid;
+  border-width: 1px;
 }
 
 form {
@@ -99,13 +104,27 @@ form {
 
 input:focus {
   outline: none;
+  border-width: 2px;
   border-color: rgb(75, 75, 133);
-  transition: ease-in-out, width .5s ease-in-out;
+  transition: ease-in-out, width 2s ease-in-out;
 }
 
 
 
 
+.align-right {
+  float: right;
+}
+
+
+.btn {
+  background: #515151;
+  padding: 10px 12px;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  transition: background 2s;
+}
 
 .p-1 {
 
@@ -136,7 +155,7 @@ input:focus {
 }
 
 .m-b {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .m-r {
@@ -145,4 +164,7 @@ input:focus {
 
 .m-l {
   margin-left: 35px; 
+}
+.m-0 {
+  margin: 0px !important;
 }
