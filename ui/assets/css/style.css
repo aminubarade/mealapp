@@ -5,7 +5,7 @@ html {
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/meal.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/meal.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -73,15 +73,35 @@ body{
   font-size: small;
 }
 
+.form-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  width: 35em;
+  padding: 50px;
+  /* text-align: center; */
+  background: white;
+  border-radius: 10px;
+}
 
+.form-input-txt {
+  width: 250px;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: #333;
+  border-left: none !important;
+  border-style: solid;
+}
 
+form {
+  display: inline;
+}
 
-
-
-
-
-
-
+input:focus {
+  outline: none;
+  border-color: rgb(75, 75, 133);
+  transition: ease-in-out, width .5s ease-in-out;
+}
 
 
 
@@ -116,13 +136,13 @@ body{
 }
 
 .m-b {
-
+  margin-bottom: 10px;
 }
 
 .m-r {
-
+  margin-right: 5px;
 }
 
 .m-l {
-  
+  margin-left: 35px; 
 }
