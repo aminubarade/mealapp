@@ -465,7 +465,43 @@ select {
 @media only screen and (max-width: 600px) {
 
   body {
+    /* display: none; */
+  }
+
+  .home-wrapper {
+    padding: 0px;
+    text-align: center !important;
+    align-items: center;
+    color: white;
+    flex-grow: 10;
+}
+
+  .form-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 70%;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+  }
+  .form-input-txt{
+    margin-left: 0px !important;
+  }
+  .sidebar {
     display: none;
+  }
+  .card-wrapper {
+    display: block;
+  }
+  .container { 
+    margin-left: 0px;
+  }
+  .orders-table{
+    color: green;
+    display: block;
+    max-width: 100%;
+    overflow: scroll;
   }
   
 
