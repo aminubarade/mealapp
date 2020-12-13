@@ -128,6 +128,11 @@ a {
   padding: 0;
 }
 
+.table-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
 
 .orders-table {
   width: 100%;
@@ -419,6 +424,12 @@ select {
   width: fit-content;
 }
 
+.card-wrapper {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
 .card{
   width: 250px;
   height: auto;
@@ -431,13 +442,11 @@ select {
 }
 
 .container {
-  padding: 50px;
-  margin-left: 20vw;
+  width: 80%;
+  margin-left: 20%;
 }
 
-.card-wrapper {
-  display: flex;
-}
+
 
 .profile-img {
   background-color: #1055bc;
@@ -467,7 +476,6 @@ select {
   body {
     /* display: none; */
   }
-
   .home-wrapper {
     padding: 0px;
     text-align: center !important;
@@ -491,11 +499,12 @@ select {
   .sidebar {
     display: none;
   }
+
   .card-wrapper {
     display: block;
   }
-  .container { 
-    margin-left: 0px;
+  .container{
+    margin: auto;
   }
   .orders-table{
     color: green;
