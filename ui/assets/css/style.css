@@ -474,8 +474,9 @@ select {
 
 
 
-
-
+.mobile-tabs{
+ display: none;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -483,12 +484,19 @@ select {
     /* display: none; */
   }
   .home-wrapper {
-    padding: 0px;
+    padding: 20px;
     text-align: center !important;
     align-items: center;
     color: white;
     flex-grow: 10;
+    
 }
+  h1 {
+    font-size: 1.17em;
+  }
+  .home-btn {
+    padding: 5px 30px;
+  }
 
   .form-container {
     margin-left: auto;
@@ -508,6 +516,11 @@ select {
 
   .card-wrapper {
     display: block;
+    width: 100%;
+  }
+
+  .table-wrapper {
+    width: 100%;
   }
   .container{
     margin: auto;
@@ -523,6 +536,21 @@ select {
     width: 40%;
     margin-left: auto;
   }
+
+
+
+.mobile-tabs{
+  display: inline;
+  width: 100%;
+  margin: auto;
+  font-size: 0.6em;
+}
+
+.mobile-links li{
+  display: inline;
+  
+
+}
   
 
 
