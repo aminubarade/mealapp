@@ -499,6 +499,14 @@ select {
   background: none;
 }
 
+.no-d {
+  display: none;
+}
+
+.display-inline {
+  display: inline !important;
+}
+
 @media only screen and (max-width: 600px) {
 
   body {

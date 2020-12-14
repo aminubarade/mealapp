@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="pragma" content="no-cache" />
+  <script type="" src="assets/js/script.js"></script>
   <title>login page</title>
 </head>
 
@@ -23,8 +24,9 @@
       </div>
     </div>
     <div class="form-container">
-      <p class="m-0">Register</p>
-      <div class="register-form mb-2">
+      
+      <div class="register-form mb-2" id="register-form">
+        <p class="m-0">Register</p>
         <form action="#" class="login">
           <input type="text" placeholder="Firstname" class="mb-2 form-input-txt" />
           <input type="text" placeholder="Lastname" class="mb-2 ml-4 form-input-txt" />
@@ -38,8 +40,10 @@
           </div>
         </form>
       </div>
-      <p class="m-">Login</p>
-      <div class="login-form">
+      <span>Already have an account?<span onclick="myFunction()"> Click here to login </span></span>
+      
+      <div class="login-form no-d" id="login-form">
+        <p class="m-">Login</p>
         <form action="#" class="login">
           <input type="text" placeholder="Username" class="form-input-txt mb-3" />
           <input type="password" placeholder="Password" class="ml-4  mb-2 form-input-txt" />
