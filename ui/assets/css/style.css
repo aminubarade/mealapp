@@ -467,13 +467,6 @@ select {
 .sidebar-items li:hover{
   background: rgb(219 219 221);
 }
-
-
-
-
-
-
-
 .mobile-tabs{
  display: none;
 }
@@ -490,7 +483,7 @@ select {
     color: white;
     flex-grow: 10;
     
-}
+  }
   h1 {
     font-size: 1.17em;
   }
@@ -507,11 +500,15 @@ select {
     background: white;
     border-radius: 10px;
   }
+
   .form-input-txt{
     margin-left: 0px !important;
   }
   .sidebar {
     display: none;
+  }
+  .card {
+    margin: 15px auto;
   }
 
   .card-wrapper {
@@ -548,7 +545,7 @@ select {
 
 .mobile-links li{
   display: inline;
-  
+
 
 }
   
