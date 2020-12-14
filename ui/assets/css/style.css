@@ -28,7 +28,7 @@ a {
   background-color: rgb(75, 75, 133);;
 }
 .nav-transparent {
-  padding: 14px 40px;
+  padding: 18px 25px;
   background-color: transparent;
 }
 
@@ -42,7 +42,7 @@ a {
 
 .page-title {
   color: aliceblue;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .nav-link a{
@@ -101,7 +101,9 @@ a {
   height: 100%;
   top: 0;
   left: 0;
+  bottom: 0;
   background-color: white;
+  z-index: 11;
 }
 .sidebar-header{
   padding: 20px;
@@ -140,8 +142,18 @@ a {
 }
 
 .add-meal {
-  width: 45%;
-  margin-left: auto;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.menu-button {
+  width: 100%;
+  margin: auto;
+}
+.menu-btn {
+  width: fit-content;
+  margin: auto;
 }
 
 
@@ -430,6 +442,13 @@ select {
   width: fit-content;
 }
 
+.btn-meal {
+  padding-bottom: 2px;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
 .card-wrapper {
   display: flex;
   width: 80%;
@@ -447,10 +466,16 @@ select {
   padding: 10px;
 }
 
+
+.content {
+  display: flex;
+}
 .container {
   width: 80%;
   margin-left: 20%;
 }
+
+
 
 
 
@@ -470,6 +495,9 @@ select {
 .mobile-tabs{
  display: none;
 }
+select {
+  background: none;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -477,18 +505,16 @@ select {
     /* display: none; */
   }
   .home-wrapper {
-    padding: 20px;
+    padding: 180px 27px;
     text-align: center !important;
     align-items: center;
     color: white;
     flex-grow: 10;
     
   }
-  h1 {
-    font-size: 1.17em;
-  }
+
   .home-btn {
-    padding: 5px 30px;
+    padding: 10px 30px;
   }
 
   .form-container {
@@ -528,13 +554,6 @@ select {
     max-width: 100%;
     overflow: scroll;
   }
-  .add-meal {
-    display: inline;
-    width: 40%;
-    margin-left: auto;
-  }
-
-
 
 .mobile-tabs{
   display: inline;
