@@ -142,9 +142,12 @@ a {
 }
 
 .add-meal {
-  width: 100%;
-  text-align: center;
-  align-items: center;
+  width: inherit;
+  margin: auto;
+  display: flex;
+}
+.col-1 {
+  width: 50%;
 }
 
 .menu-button {
@@ -506,6 +509,35 @@ select {
 .display-inline {
   display: inline !important;
 }
+.order-history {
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+}
+.order-item {
+  background: white;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 10px;
+}
+.order-item a{
+  color: #333;
+}
+.order-history-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.17em;
+}
+.order-history-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.order-history-page-header {
+  text-align: center;
+}
+.ft-big {
+  font-size: 1.5em;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -574,6 +606,9 @@ select {
   display: inline;
 
 
+}
+.add-meal {
+  display: block;
 }
   
 
