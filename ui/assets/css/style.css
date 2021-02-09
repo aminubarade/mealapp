@@ -44,6 +44,9 @@ a {
   color: aliceblue;
   font-size: 30px;
 }
+.user-link {
+  color: white !important;
+}
 
 .nav-link a{
   color: aliceblue !important;
@@ -161,7 +164,7 @@ a {
   margin: auto;
 }
 .menu-btn {
-  width: fit-content;
+  width: 80%;
   margin: auto;
 }
 
@@ -179,6 +182,17 @@ a {
   /* text-align: center; */
   background: white;
   border-radius: 10px;
+}
+
+.backend-form-input-txt {
+  width: 292px;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom:  rgb(75, 75, 133);
+  border-left: none !important;
+  border-style: solid;
+  background: none;
+  border-width: 1px;
 }
 
 .form-input-txt {
@@ -452,10 +466,7 @@ select {
 }
 
 .btn-meal {
-  padding-bottom: 2px;
-  padding-top: 6px;
-  padding-right: 22px;
-  padding-left: 22px;
+ 
 }
 
 .card-wrapper {
@@ -542,6 +553,29 @@ select {
 .order-history-page-header {
   text-align: center;
 }
+
+.cart {
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+}
+.cart-body {
+  background: white;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 10px;
+}
+.cart-item {
+  background: white;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 10px;
+}
+.cart-s {
+  display: flex;
+  justify-content: space-between;
+}
+
 .ft-big {
   font-size: 1.5em;
 }
@@ -593,6 +627,7 @@ select {
   }
 
   .form-input-txt{
+    width: 250px;
     margin-left: 0px !important;
   }
   .sidebar {
